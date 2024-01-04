@@ -1,7 +1,8 @@
 import './App.css';
 import React from 'react';
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Gallery from './components/Gallery';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' exact />
+          <Route path='/gallery' element={<Gallery />}/>
         </Routes>
       </Router>
     </>
