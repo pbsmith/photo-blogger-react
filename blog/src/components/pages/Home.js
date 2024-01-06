@@ -1,9 +1,23 @@
-import '../..App.css'
+import React from 'react';
+import '../../App.js';
+import './Home.css';
 
-function Home () {
+function Home() {
     return (
         <>
-            <img src=''/>
+            <div className='card-container'>
+                <div className='card'>
+                    <p>Hello</p>
+                </div>
+                <div className='card'>
+                    <p>Hello</p>
+                </div>
+                <div className='card'>
+                    <p>Hello</p>
+                </div>
+            </div>
         </>
     )
 }
+
+export default Home

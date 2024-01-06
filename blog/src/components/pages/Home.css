@@ -1,0 +1,20 @@
+body {
+    background: url("../../../public/IMG_8898.jpeg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    padding: 8rem;
+}
+
+.card{
+    height: 2rem;
+    width: 4rem;
+    background-color: white;
+    margin: 3rem;
+}
