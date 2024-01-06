@@ -13,8 +13,21 @@ body {
 }
 
 .card{
-    height: 2rem;
-    width: 4rem;
-    background-color: white;
+    height: 28rem;
+    width: 20rem;
+    background: linear-gradient(180deg, #fff, #157179 120%);
     margin: 3rem;
+    border: 0.5rem solid #34838B;
+    border-radius: 1rem;
+    box-shadow: 0.25rem 1rem #157179;
+    padding: 2rem;
+    font-size: 0.75rem;
+}
+
+@media screen and (max-width: 960px) {
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        padding: 8rem;
+    }
 }
