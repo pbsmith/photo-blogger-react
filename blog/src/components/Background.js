@@ -1,6 +1,5 @@
-import React from 'react'
 import './Background.css'
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 // import { loadAll } from "@/tsparticles/all"; // if you are going to use `loadAll`, install the "@tsparticles/all" package too.
 // import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
@@ -30,12 +29,12 @@ function Background() {
     console.log(container);
   };
 
-  const options = useMemo(
-    () => ({
+  const options = {
       background: {
         color: {
-          value: "#0d47a1",
+          value: "#262626",
         },
+        zIndex: -1
       },
       fpsLimit: 120,
       interactivity: {
@@ -97,17 +96,17 @@ function Background() {
         },
       },
       detectRetina: true,
-    }),
-    [],
-  );
+    }
 
   if (init) {
     return (
+        <>
       <Particles
         id="tsparticles"
         particlesLoaded={particlesLoaded}
         options={options}
       />
+      </>
     );
   }
 

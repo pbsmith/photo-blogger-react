@@ -5,9 +5,10 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/pages/Home.js'
 import GalleryPage from './components/pages/GalleryPage.js'
 import AboutContactPage from './components/pages/AboutContactPage.js'
+import Gallery from './components/Gallery.js';
 
 function App() {
-
+  
 
   return (
     <>
