@@ -1,10 +1,3 @@
-body {
-    background: url("../../../public/IMG_8898.jpeg")no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
 
 .card-container{
     display: flex;
@@ -17,9 +10,9 @@ body {
     width: 20rem;
     background: linear-gradient(180deg, #fff, #157179 120%);
     margin: 3rem;
-    border: 0.5rem solid #34838B;
+    border: 0.5rem solid #414246;
     border-radius: 1rem;
-    box-shadow: 0.25rem 1rem #157179;
+    box-shadow: 0.25rem 0.5rem rgb(84, 81, 81);
     padding: 2rem;
     font-size: 0.75rem;
 }
