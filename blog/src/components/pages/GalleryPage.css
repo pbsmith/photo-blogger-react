@@ -1,3 +1,20 @@
 .gallery-container{
     padding: 5%;
 }
+
+.gallery-header{
+    background-color: aliceblue;
+    width: 25rem;
+    height: 3rem;
+    position: absolute;
+    text-align: center;
+    margin: 3rem;
+}
+
+.header{
+    text-decoration: red;
+    text-transform: capitalize;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: 100;
+}
