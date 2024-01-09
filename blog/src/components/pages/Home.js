@@ -2,7 +2,10 @@ import React from 'react';
 import '../../App.js';
 import './Home.css';
 import Background from '../Background.js';
- 
+import Carousel from '../Carousel.js';
+import slides from '../../data/carouselData.json'
+
+
 function Home() {
 
     return (
@@ -10,8 +13,8 @@ function Home() {
                                 <Background />
             <div>
                 <div className='card-container'>
-                    <div>
-                        
+                    <div className='carousel-container'>
+                        <Carousel data={slides}/>
                     </div>
                 </div>
                 <div className='card-container'>

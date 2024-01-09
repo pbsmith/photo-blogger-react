@@ -26,7 +26,7 @@ function Background() {
   }, []);
 
   const particlesLoaded = (container) => {
-    console.log(container);
+  //  console.log(container);
   };
 
   const options = {
@@ -37,7 +37,8 @@ function Background() {
         zIndex: -1
       },
       fpsLimit: 120,
-      interactivity: {
+      interactivity: { 
+        /**
         events: {
           onClick: {
             enable: true,
@@ -47,7 +48,8 @@ function Background() {
             enable: true,
             mode: "repulse",
           },
-        },
+          
+        },*/
         modes: {
           push: {
             quantity: 4,
