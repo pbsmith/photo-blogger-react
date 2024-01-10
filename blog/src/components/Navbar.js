@@ -42,9 +42,7 @@ function Navbar() {
                             </Link>
                         </li>
                         <li>
-                            <Link to='/gallery' className='nav-links' onClick={closeMobileMenu}>
-                                Gallery
-                            </Link>
+                        {button && <Button buttonStyle='btn--outline'>View Gallery</Button>}
                         </li>
                         <li>
                             <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
@@ -52,7 +50,7 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>View Gallery</Button>}
+                    
                 </div>
             </nav>
         </>

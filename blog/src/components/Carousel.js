@@ -7,7 +7,7 @@ import IMG3 from './../images/IMG_8939.jpeg'
 import IMG4 from './../images/IMG_8952.jpeg'
 
 
-function Carousel() {
+function Carousel(testImage) {
 
 const [imageIndex, setImageIndex] = useState(0)
 
@@ -19,20 +19,24 @@ const imageUrls = [
 ]
 
   function showPrevImage() {
-    setImageIndex(index => {
-      if(index==imageUrls.length-1) {
+    setImageIndex(imageIndex => {
+      if(imageIndex===imageUrls.length-1) {
         return 0;
       }
-      return index-1;
+      else {
+        return imageIndex-1;
+      }
     })
   }
 
   function showNextImage() {
-    setImageIndex(index => {
-      if(index==0) {
+    setImageIndex(imageIndex => {
+      if(imageIndex===0) {
         return imageUrls.length-1;
       }
-      return index+1;
+      else {
+        return imageIndex+1;
+      }
     })
   }
 

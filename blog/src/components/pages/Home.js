@@ -5,7 +5,6 @@ import Background from '../Background.js';
 import Carousel from '../Carousel.js';
 
 
-
 function Home() {
 
 
