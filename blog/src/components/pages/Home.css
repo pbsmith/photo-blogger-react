@@ -1,12 +1,18 @@
 .carousel-container{
-    width: 40vw;
-    height: 20vh;
+    width: 75vw;
+    border: 0.5rem solid #34838b;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem #157179;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-container{
     display: flex;
     flex-direction: row;
     padding: 8rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .card{

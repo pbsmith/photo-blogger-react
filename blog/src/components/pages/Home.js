@@ -3,10 +3,11 @@ import '../../App.js';
 import './Home.css';
 import Background from '../Background.js';
 import Carousel from '../Carousel.js';
-import slides from '../../data/carouselData.json'
+
 
 
 function Home() {
+
 
     return (
         <>
@@ -14,7 +15,7 @@ function Home() {
             <div>
                 <div className='card-container'>
                     <div className='carousel-container'>
-                        <Carousel data={slides}/>
+                        <Carousel/>
                     </div>
                 </div>
                 <div className='card-container'>
