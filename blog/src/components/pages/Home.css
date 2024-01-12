@@ -10,7 +10,10 @@
 .card-container{
     display: flex;
     flex-direction: row;
-    padding: 8rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
     align-items: center;
     justify-content: center;
 }

@@ -3,10 +3,20 @@ import '../../App.js';
 import './Home.css';
 import Background from '../Background.js';
 import Carousel from '../Carousel.js';
+import IMG1 from '../../images/IMG_8870.jpeg'
+import IMG2 from '../../images/IMG_8898.jpeg'
+import IMG3 from '../../images/IMG_8939.jpeg'
+import IMG4 from '../../images/IMG_8952.jpeg'
 
 
 function Home() {
 
+    const slides = [
+        IMG1,
+        IMG2,
+        IMG3,
+        IMG4
+    ]
 
     return (
         <>
@@ -14,7 +24,7 @@ function Home() {
             <div>
                 <div className='card-container'>
                     <div className='carousel-container'>
-                        <Carousel/>
+                        <Carousel imageUrls={slides}/>
                     </div>
                 </div>
                 <div className='card-container'>
