@@ -38,9 +38,10 @@ function Footer() {
           <div className='social-media-wrap'>
             <div className='footer-logo'>
               <Link to='/' className='social-logo'>
-                
+                jmee
               </Link>
             </div>
+            <small className='website-rights'>jmee © 2023</small>
           </div>
         </section>
       </div>

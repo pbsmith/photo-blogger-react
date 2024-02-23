@@ -20,7 +20,7 @@ function Home() {
 
     return (
         <>
-                                <Background />
+            <Background />
             <div>
                 <div className='card-container'>
                     <div className='carousel-container'>
