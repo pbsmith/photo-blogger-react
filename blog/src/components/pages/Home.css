@@ -1,5 +1,26 @@
+.home-header-text{
+    font-family: 'PT Sans';
+    font-weight: bold;
+    font-size: xx-large;
+    text-shadow: 0.5rem 0.5rem 1rem black;
+}
+
+.home-header-subtext{
+    font-size: large;
+}
+
+.home-header{
+    color: #fff;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: #fff 0.25rem;
+    position: relative;
+}
+
 .carousel-container{
-    width: 75vw;
+    width: 55vw;
     border: 0.5rem solid #34838b;
     border-radius: 0.5rem;
     box-shadow: 0.25rem 0.25rem #157179;
@@ -12,8 +33,8 @@
     flex-direction: row;
     padding-left: 8rem;
     padding-right: 8rem;
-    padding-top: 6rem;
-    padding-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     align-items: center;
     justify-content: center;
 }

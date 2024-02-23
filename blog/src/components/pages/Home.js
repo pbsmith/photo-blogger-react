@@ -22,6 +22,10 @@ function Home() {
         <>
             <Background />
             <div>
+                <div className='home-header'>
+                    <h1 className='home-header-text'>Welcome</h1>
+                    <h2 className='home-header-subtext'>To the jmee Image Gallery</h2>
+                </div>
                 <div className='card-container'>
                     <div className='carousel-container'>
                         <Carousel imageUrls={slides}/>
