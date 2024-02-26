@@ -1,21 +1,23 @@
 import React from 'react'
 import './Footer.css'
 import { Link } from 'react-router-dom'
+import { Button } from './Button';
 
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer_subscription'>
+      <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Follow on social handles here...
+          Be a part of our journey
         </p>
         <p className='footer-subscription-text'>
-          Join the email list here...
+          Join the email list below
         </p>
         <div>
           <form>
             <input type='email' name='email' placeholder='Your Email'
               className='footer-input' />
+              <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
         </div>
       </section>
@@ -42,6 +44,14 @@ function Footer() {
               </Link>
             </div>
             <small className='website-rights'>jmee © 2023</small>
+            <div className='social-icons'>
+              <Link className='social-icon-link facebook' to='/' target='_blank' aria-label='Facebook'>
+                <i className='fab fa-facebook-f'></i>
+              </Link>
+              <Link className='social-icon-link instagram' to='/' target='_blank' aria-label='Instagram'>
+                <i className='fab fa-instagram'></i>
+              </Link>
+            </div>
           </div>
         </section>
       </div>
